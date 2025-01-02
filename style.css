@@ -1,0 +1,185 @@
+.disease1 img{
+width:300px;
+height:300px;
+}
+.disease1 {
+  position:relative;
+} 
+ul {
+  text-align:center;
+  list-style:none;
+  font-size:20px;
+  margin:0px;
+  background-color:#a860ff ;
+  position:sticky;
+  padding-top:20px ;
+  padding-bottom:20px ;
+}
+ul a{
+color:white;
+margin-right:40px ;
+padding:0px 15px 0px 15px ;
+border-radius:5px ;
+text-decoration:none ;
+}
+ul li{
+  display:inline-block;
+}
+li a:hover{
+  color: #4105a2;
+  background-color: #f3f348;
+  font-size: 30px;
+  border-radius:30px;
+}
+
+
+.disease1 p{
+ font-size: 30px;
+ position:absolute;
+top:50% ;
+left:50%;
+transform:translate(-50%,-50%) ;
+}
+.grid {
+  display:flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.p1 {
+    font-size:20px ;
+    color:black
+}
+.p2{
+  font-size: 40px;
+  color:blue
+}
+.footer {
+display:flex ;
+background-color:rgb(245, 188, 252);
+margin-top:20px ;
+
+}
+.footer img{
+  padding-right:10px ;
+  padding-top:10px ;
+  padding-bottom:10px ;
+}
+.main{
+  text-align:center ;
+}
+.marq{
+  padding-top:30px ;
+  padding-bottom:30px ;
+}
+.g1{
+font-size:35px ;
+font-weight:bold ;
+color:white ; 
+text-align:center ;
+}
+.g2{
+text-align: center;
+font-weight: bold;
+}
+#title {
+  background-color:#340969;
+  color:white;
+  text-align:center;
+  letter-spacing:5px;
+  font-size:40px;
+  font-family:serif;
+  padding:20px;
+  margin:0px;
+}
+#u {
+  margin:0px;
+}
+#home {
+  padding-top:30px;
+  background-image:url("Home.png") ;
+  background-size:100% 100% ;
+}
+#home-content {
+  width:55%;
+  display:inline-block;
+  margin-left:30px;
+}
+#hospital-description {
+  font-size:20px;
+
+}
+.highlights{
+display: inline-block;
+padding: 30px;
+text-align: center;
+}
+.highlightsHeading{
+  color:#6429ad
+}
+#home-img{
+  width:30%;
+  float:right;
+  margin-top:80px;
+  margin-right:20px;
+  border-radius:20px;
+}
+#about {
+  display:flex;
+}
+#about img {
+  width:50%;
+}
+#about-content{
+  width:40%;
+  margin:60px;
+}
+#about-content h4{
+  font-size:25px;
+  color:orangered;
+  margin:0px;
+}
+#about-content h3{
+  font-size:60px;
+  color:#6426b0;
+  margin:0px;
+}
+#about-content p{
+  font-size:22px;
+  color:#05051c;
+  
+}
+#footer{
+  color:white;
+  display:flex;
+  background-color:#3c3c3c;
+}
+.footer-section{
+  width:50%;
+  margin:20px;
+}
+.footer-section h3{
+  font-size:25px;
+  color:orangered; 
+}
+#SocialMediaSection{
+  text-align:center;
+  background:#303030;
+  width:100%;
+}
+#SocialMediaSection img{
+  width:35px;
+  margin:10px;
+
+}
+#slider {
+width: 100%;
+height: 500px;
+background-size:100% 100%;
+animation:slideshow 10s infinite;
+}
+
+@keyframes slideshow{
+ 0% {background-image:url(Pathology.jpg)}
+ 60% {background-image:url(Dermatology.jpg)}
+ 100% {background-image:url(Endocrinology.jpg)} 
+}
